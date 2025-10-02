@@ -46,7 +46,8 @@ body{
 .banner{
     background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
     background-size: cover;
-    height: 500px;
+    height: 90vh;
+
 }
 
 .banner .container{
@@ -125,4 +126,65 @@ body{
     color: white;
     flex-direction: column;
     padding: 50px 0;
+}
+
+/* cadastro estilo */
+.card{
+    background: rgb(227, 227, 227);
+    border-radius: 20px;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card h2{
+    color: rgb(222, 82, 82);
+}
+
+.card button{
+    background-color: rgb(237, 38, 38);
+    color: white;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+}
+.formulario{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.campo{
+    width: 100%;
+}
+
+.campo span{
+    color: rgb(222, 82, 82);
+}
+
+.campo input{
+    background-color: white;
+    border: #32b9cd solid 1px;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.card-login{
+    background: rgb(227, 227, 227);
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
